@@ -26,3 +26,9 @@ function sumRecursion(numbers, index = 0) {
 function sumTheSimpleWay(numbers) {
   return numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
+
+const numbers = [1, 2, 3, 4, 5];
+console.log(sumFor(numbers)); // Output: 15
+console.log(sumWhile(numbers)); // Output: 15
+console.log(sumRecursion(numbers)); // Output: 15
+console.log(sumTheSimpleWay(numbers)); // Output: 15
